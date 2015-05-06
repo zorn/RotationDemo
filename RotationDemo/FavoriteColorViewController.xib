@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavoriteColorViewController" customModule="RotationDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="colorDescriptionLabel" destination="GEF-DA-p7h" id="0Mm-g5-izo"/>
+                <outlet property="colorPreviewView" destination="RhX-by-AtX" id="XrT-Nu-H3d"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The color you picked:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCw-k9-WSc">
+                    <rect key="frame" x="8" y="8" width="166" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEF-DA-p7h">
+                    <rect key="frame" x="8" y="37" width="584" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RhX-by-AtX">
+                    <rect key="frame" x="8" y="66" width="584" height="482"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rzr-ju-Web">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <items>
+                        <barButtonItem title="Camera" id="Fxi-Uy-VHq">
+                            <connections>
+                                <action selector="cameraButtonAction:" destination="-1" id="DIo-RS-1Hi"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="geb-Jk-cC3"/>
+                        <barButtonItem title="Close" id="xe9-Wh-vqi">
+                            <connections>
+                                <action selector="closeButtonAction:" destination="-1" id="URw-Ft-ELo"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="RhX-by-AtX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="4T4-hU-cLw"/>
+                <constraint firstItem="GEF-DA-p7h" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="HxW-SD-C2U"/>
+                <constraint firstItem="GEF-DA-p7h" firstAttribute="top" secondItem="OCw-k9-WSc" secondAttribute="bottom" constant="8" id="Ock-Rq-vpX"/>
+                <constraint firstAttribute="trailing" secondItem="RhX-by-AtX" secondAttribute="trailing" constant="8" id="TLS-fu-RYB"/>
+                <constraint firstItem="RhX-by-AtX" firstAttribute="top" secondItem="GEF-DA-p7h" secondAttribute="bottom" constant="8" id="XbE-5V-1S9"/>
+                <constraint firstAttribute="bottom" secondItem="rzr-ju-Web" secondAttribute="bottom" id="bvx-pe-iLM"/>
+                <constraint firstItem="rzr-ju-Web" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eM1-pV-BFa"/>
+                <constraint firstAttribute="trailing" secondItem="rzr-ju-Web" secondAttribute="trailing" id="eSg-Bk-NiS"/>
+                <constraint firstItem="rzr-ju-Web" firstAttribute="top" secondItem="RhX-by-AtX" secondAttribute="bottom" constant="8" id="iJH-5P-QmS"/>
+                <constraint firstAttribute="trailing" secondItem="GEF-DA-p7h" secondAttribute="trailing" constant="8" id="jRg-ls-4mf"/>
+                <constraint firstItem="OCw-k9-WSc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="lgx-xU-Wc1"/>
+                <constraint firstItem="OCw-k9-WSc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="xcZ-hZ-HUs"/>
+            </constraints>
+            <point key="canvasLocation" x="337" y="323"/>
+        </view>
+    </objects>
+</document>
