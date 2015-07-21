@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		1A93E29F1B5DC27E00ECCC0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93E29E1B5DC27E00ECCC0F /* main.m */; };
 		1A93E2A21B5DC27E00ECCC0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93E2A11B5DC27E00ECCC0F /* AppDelegate.m */; };
-		1A93E2A51B5DC27E00ECCC0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93E2A41B5DC27E00ECCC0F /* ViewController.m */; };
-		1A93E2A81B5DC27E00ECCC0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A93E2A61B5DC27E00ECCC0F /* Main.storyboard */; };
 		1A93E2AA1B5DC27E00ECCC0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A93E2A91B5DC27E00ECCC0F /* Images.xcassets */; };
 		1A93E2AD1B5DC27E00ECCC0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A93E2AB1B5DC27E00ECCC0F /* LaunchScreen.xib */; };
 		1A93E2B91B5DC27E00ECCC0F /* RotationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93E2B81B5DC27E00ECCC0F /* RotationDemoTests.m */; };
+		1ACD72A41B5DC30600DFB194 /* ColorBoxesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACD72A21B5DC30600DFB194 /* ColorBoxesViewController.xib */; };
+		1ACD72A51B5DC30600DFB194 /* FavoriteColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACD72A31B5DC30600DFB194 /* FavoriteColorViewController.xib */; };
+		1ACD72A81B5DC31F00DFB194 /* ColorBoxesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD72A71B5DC31F00DFB194 /* ColorBoxesViewController.m */; };
+		1ACD72AB1B5DC3B100DFB194 /* FavoriteColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD72AA1B5DC3B100DFB194 /* FavoriteColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,17 @@
 		1A93E29E1B5DC27E00ECCC0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A93E2A01B5DC27E00ECCC0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A93E2A11B5DC27E00ECCC0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A93E2A31B5DC27E00ECCC0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A93E2A41B5DC27E00ECCC0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1A93E2A71B5DC27E00ECCC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A93E2A91B5DC27E00ECCC0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A93E2AC1B5DC27E00ECCC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A93E2B21B5DC27E00ECCC0F /* RotationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A93E2B71B5DC27E00ECCC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A93E2B81B5DC27E00ECCC0F /* RotationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationDemoTests.m; sourceTree = "<group>"; };
+		1ACD72A21B5DC30600DFB194 /* ColorBoxesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorBoxesViewController.xib; sourceTree = "<group>"; };
+		1ACD72A31B5DC30600DFB194 /* FavoriteColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoriteColorViewController.xib; sourceTree = "<group>"; };
+		1ACD72A61B5DC31F00DFB194 /* ColorBoxesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorBoxesViewController.h; sourceTree = "<group>"; };
+		1ACD72A71B5DC31F00DFB194 /* ColorBoxesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorBoxesViewController.m; sourceTree = "<group>"; };
+		1ACD72A91B5DC3B100DFB194 /* FavoriteColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteColorViewController.h; sourceTree = "<group>"; };
+		1ACD72AA1B5DC3B100DFB194 /* FavoriteColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +88,12 @@
 			children = (
 				1A93E2A01B5DC27E00ECCC0F /* AppDelegate.h */,
 				1A93E2A11B5DC27E00ECCC0F /* AppDelegate.m */,
-				1A93E2A31B5DC27E00ECCC0F /* ViewController.h */,
-				1A93E2A41B5DC27E00ECCC0F /* ViewController.m */,
-				1A93E2A61B5DC27E00ECCC0F /* Main.storyboard */,
+				1ACD72A21B5DC30600DFB194 /* ColorBoxesViewController.xib */,
+				1ACD72A61B5DC31F00DFB194 /* ColorBoxesViewController.h */,
+				1ACD72A71B5DC31F00DFB194 /* ColorBoxesViewController.m */,
+				1ACD72A31B5DC30600DFB194 /* FavoriteColorViewController.xib */,
+				1ACD72A91B5DC3B100DFB194 /* FavoriteColorViewController.h */,
+				1ACD72AA1B5DC3B100DFB194 /* FavoriteColorViewController.m */,
 				1A93E2A91B5DC27E00ECCC0F /* Images.xcassets */,
 				1A93E2AB1B5DC27E00ECCC0F /* LaunchScreen.xib */,
 				1A93E29C1B5DC27E00ECCC0F /* Supporting Files */,
@@ -199,7 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A93E2A81B5DC27E00ECCC0F /* Main.storyboard in Resources */,
+				1ACD72A41B5DC30600DFB194 /* ColorBoxesViewController.xib in Resources */,
+				1ACD72A51B5DC30600DFB194 /* FavoriteColorViewController.xib in Resources */,
 				1A93E2AD1B5DC27E00ECCC0F /* LaunchScreen.xib in Resources */,
 				1A93E2AA1B5DC27E00ECCC0F /* Images.xcassets in Resources */,
 			);
@@ -219,9 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A93E2A51B5DC27E00ECCC0F /* ViewController.m in Sources */,
+				1ACD72A81B5DC31F00DFB194 /* ColorBoxesViewController.m in Sources */,
 				1A93E2A21B5DC27E00ECCC0F /* AppDelegate.m in Sources */,
 				1A93E29F1B5DC27E00ECCC0F /* main.m in Sources */,
+				1ACD72AB1B5DC3B100DFB194 /* FavoriteColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +254,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1A93E2A61B5DC27E00ECCC0F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A93E2A71B5DC27E00ECCC0F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A93E2AB1B5DC27E00ECCC0F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -350,6 +352,7 @@
 				INFOPLIST_FILE = RotationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,6 +363,7 @@
 				INFOPLIST_FILE = RotationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -416,6 +420,7 @@
 				1A93E2BE1B5DC27E00ECCC0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A93E2BF1B5DC27E00ECCC0F /* Build configuration list for PBXNativeTarget "RotationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				1A93E2C11B5DC27E00ECCC0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

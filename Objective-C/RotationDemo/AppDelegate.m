@@ -1,22 +1,13 @@
-//
-//  AppDelegate.m
-//  RotationDemo
-//
-//  Created by Michael D Zornek on 7/20/15.
-//  Copyright (c) 2015 Big Nerd Ranch. All rights reserved.
-//
-
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
-
-@end
+#import "ColorBoxesViewController.h"
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[ColorBoxesViewController alloc] init];
     return YES;
 }
 
